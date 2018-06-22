@@ -1,1 +1,1 @@
-web: python httpdump.py
+web: python httpdump.py runserver 0.0.0.0:5000

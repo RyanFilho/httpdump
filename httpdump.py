@@ -15,7 +15,7 @@ def index():
 def log():
     pw = request.args.get('password', type = str)
     if pw == 'jetix123':
-    	return send_file(os.getcwd() +  '/httpdump.txt')
+    	return send_file(os.getcwd() +  '/dump.txt')
     else:
     	return 'Send the correct password in params :P'
     

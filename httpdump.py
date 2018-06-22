@@ -20,4 +20,5 @@ def log():
     	return 'Send correct password in params :P'
     
 if __name__ == "__main__":
-	app.run(port=33507, debug=True)
+	porta = int(os.environ.get('PORT', 5000))
+	app.run(port=porta, debug=True)

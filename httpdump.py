@@ -17,7 +17,7 @@ def log():
     if pw == 'jetix123':
     	return send_file(os.getcwd() +  '/httpdump.txt')
     else:
-    	return 'Send correct password in params :P'
+    	return 'Send the correct password in params baby :P'
     
 if __name__ == "__main__":
 	app.run(host='0.0.0.0', port=os.environ.get('PORT', 5000), debug=False)
